@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to our Reustaurant</h1>
+        <h2>Our Delicious Menu</h2>
+    </header>
+    <section>
+        <div class="menu-item">
+            <input type="checkbox" name="menu-selection" id="starter" value="starter">
+            <label for="starter">Starter</label>
+            <br>
+            <input type="checkbox" name="menu-selection" id="main-course" value="main-course">
+            <label for="main-course">Main Course</label>
+            <br>
+            <input type="checkbox" name="menu-selection" id="dessert" value="dessert">
+            <label for="dessert">Dessert</label>
+        </div>
+
+        <!-- Display Selected Menu Item -->
+        <div id="selected-menu-item">
+            <h3>Select Food Items:</h3>
+            <ul id="food-list" class="food-list"></ul>
+        </div>
+
+        <!-- Button for Your Order -->
+        <button id="order-button" style="display: none">Your Order</button>
+
+        <!-- Display Selected Items -->
+        <div id="selected-items" style="display: none">
+            <h3>Your Selected Items:</h3>
+            <ul id="selected-items-list" class="food-list"></ul>
+            <p>Total Bill: Rs.<span id="total-amount">0.00</span></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Patlancha Waada</p>
+
+    </footer>
+   
+    <script src="foodmenu.js"></script>
+</body>
+
+</html>

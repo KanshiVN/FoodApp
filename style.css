@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #A7E99C;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.menu-item h2 {
+    font-size: 24px;
+    color: #ff6f61;
+}
+
+.menu-item label {
+    font-size: 18px;
+}
+
+.menu-item input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+.food-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.food-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.quantity-input {
+    width: 40px;
+}
+
+.price-label {
+    font-weight: bold;
+}
+
+#order-button {
+    background-color: #65da51;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#selected-items {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+footer {
+    background-color: #A7E99C;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
